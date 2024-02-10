@@ -1,0 +1,12 @@
+1. Crea un programa que verifique si un número es par o impar.
+
+void main() {
+  stdout.write('Ingresa un número: ');
+  int numero = int.parse(stdin.readLineSync()!);
+
+  if (numero % 2 == 0) {
+    print('$numero es un número par.');
+  } else {
+    print('$numero es un número impar.');
+  }
+}
